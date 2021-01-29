@@ -1,0 +1,577 @@
+/*global css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*Banner section css start*/
+.banner{
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+.background-shadow{
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 75px;
+	background-color: rgba(0,0,0,0.8);
+}
+.nav-logo{
+	margin-top: 32px;
+}
+.nav-logo h1 a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+}
+.nav-menu{
+	margin-top: 32px;
+}
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 35px;
+
+}
+.nav-menu ul li a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 8px;
+}
+.nav-menu ul li a:hover{
+	color: #c3c4c4;
+	border-bottom: 3px solid #FF8000;
+
+}
+.banner-body{
+	text-align: center;
+	margin-top: 170px;
+}
+.banner-body h1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 52px;
+
+}
+.banner-body h2{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 40px;
+
+}
+.banner-body button{
+	margin-top: 110px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #FF8000;
+    color: white;
+    background-color: #FF8000;
+}
+.banner-body button:hover{
+	transform: scale(1.5);
+	color: green;
+	background-color: white;
+	border:2px solid green;
+}
+.banner-body button:focus{
+	outline: none;
+}
+/*section-1 start from here*/
+/*section-1 start from here*/
+/*section-1 start from here*/
+.section1{
+	width: 100%;
+	padding: 80px 0px;
+}
+.section1-text{
+text-align: center;
+}
+.section1-text h1{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+.section1-text img{
+	margin-top: 60px;
+}
+.section1-text h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #a3a3a3;
+	margin-top: 40px;
+}
+.section1-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a3a3a3;
+    margin-top: 40px !important;
+    width: 60%;
+    margin: auto;
+}
+.section1-ib{
+text-align: center;
+margin-top: 60px;
+}
+.section1-icon a i{
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border:1px solid #a3a3a3;
+	border-radius: 100%;
+	color: white;
+	background-color: #a3a3a3;
+	margin: 20px 30px;
+	transition: 0.8s ease-in-out;
+}
+.section1-icon a i:hover{
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border:1px solid #FF8000;
+	border-radius: 100%;
+	color: white;
+	background-color: #FF8000;
+	margin: 20px 30px;
+}
+.section1-button{
+	margin-top: 40px;
+}
+.section1-button button{
+	width: 14%;
+    border: 2px solid green;
+    padding: 10px 2px;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+}
+.section1-button button:hover{
+	width: 14%;
+    border: 2px solid green;
+    padding: 10px 2px;
+    color: white;
+    background-color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*section-2 css start from here*/
+/*section-2 css start from here*/
+/*section-2 css start from here*/
+.section2{
+	background-image: url(../img/banner2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vh;
+	width: 100%;
+	position: relative;
+}
+.section2-text{
+	text-align: center;
+	margin-top: 90px;
+}
+.section2-text h1{
+	color: white;
+	text-transform: uppercase;
+	 font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+.background-shadow2{
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+.section2-icon{
+	text-align: center;
+	margin-top: 140px !important;
+	width: 60%;
+    margin: auto;
+}
+.section2-icon .img{
+	width: 75px;
+	margin: auto;
+}
+.section2-icon .img:hover{
+	transform: scale(1.1);
+}
+.section2-icon h5{
+	color: white;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/*section-3 css start*/
+.section3{
+	background-color: #f3f4ff;
+	padding: 100px 0px;
+	width: 100%;
+	text-align: center;
+}
+.counter{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+
+}
+.line{
+    width: 15%;
+    height: 2px;
+    background-color: green;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.section3-text{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    margin-top: 15px;
+}
+/*section-4 css strat*/
+/*section-4 css strat*/
+/*section-4 css strat*/
+.section4{
+	width: 100%;
+	padding: 80px 0px;
+}
+.title{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+.gallery-list li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+.gallery-list li a{
+	color: rgba(0,0,0,0.8);
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.gallery-img{
+	display: flex;
+}
+.gallery-img img{
+	/*margin-bottom: 12px;*/
+}
+.line2{
+	height: 3px;
+	width: 20px;
+	background-color: #1bae8e;
+	margin-top: 15px;
+}
+.effect{
+	position: relative;
+	overflow: hidden;
+	margin: 12px 6px;
+}
+.hover-text{
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	right: 0;
+	height: 0%;
+	background-color: rgba(0,0,0,0.25);
+	padding: 10px 30px;
+	transition: 0.5s ease-in-out;
+}
+.hover-text h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #1bae8e;
+	margin-top: 40px;
+}
+.hover-text p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+}
+.hover-text a i{
+	margin-left: 80px;
+    margin-top: 55px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    border: 1px solid white;
+    color: white;
+}
+.effect:hover .hover-text{
+	height: 100%;
+	bottom: 0px;
+	transition: 0.5s ease-in-out;
+}
+.para-para i{
+	margin-top: 0px !important;
+}
+.section4-button{
+	margin-top: 70px;
+	text-align: center;
+}
+.section4-button button{
+	width: 14%;
+    border: 2px solid green;
+    padding: 10px 2px;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+}
+.section4-button button:hover{
+	width: 14%;
+    border: 2px solid green;
+    padding: 10px 2px;
+    color: white;
+    background-color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*section5 css start*/
+/*section5 css start*/
+/*section5 css start*/
+.section5{
+	background-image: url(../img/banner3.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 80px 0px;
+	height: 90vh;
+}
+.c-certificate{
+	text-align: center;
+}
+.c-certificate h1{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;	
+    color:rgba(1,1,1,1);
+    letter-spacing: 4px;
+}
+.c-certificate p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;	
+    color:rgba(1,1,1,1);
+    margin-top: 45px !important;
+    width: 65%;
+    margin: auto;
+}
+.user{
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.user img{
+	margin: 60px 40px;
+	margin-bottom: 40px !important;
+}
+.img-para3{
+	width: 8%;
+}
+.line3{
+	height: 4px;
+	width: 88%;
+	background-color:rgba(1,1,1,0.25);
+	position: relative;
+}
+.inner-line{
+	background-color: #ffb233;
+    width: 14%;
+    height: 4px;
+    position: absolute;
+    left: 316px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.img-para1:hover{
+	transform: scale(1.5);
+}
+.img-para2:hover{
+	transform: scale(1.5);
+}
+.img-para3:hover{
+	transform: scale(1.5);
+}
+.img-para4:hover{
+	transform: scale(1.5);
+}
+.img-para5:hover{
+	transform: scale(1.5);
+}
+
+.bottom-txt{
+	text-align: center;
+	margin:20px;
+	margin-right: 104px;
+	padding-bottom: 50px !important;
+}
+.bottom-txt h3{
+  	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;	
+}
+.bottom-txt h4{
+  	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;	
+    color:rgba(1,1,1,0.25);
+}
+/*section6 css start*/
+/*section6 css start*/
+/*section6 css start*/
+.section6{
+	background-image: url(../img/banner4.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	padding: 80px 0px;
+}
+.footer-top{
+	text-align: center;
+}
+.part1{
+	text-align: left;
+}
+.part1 h1{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+.part1 h3{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c4c4cf;	
+}
+.part1 a{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c4c4cf;	
+}
+
+.part2 h3{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c4c4cf;	
+}
+.part2 h4{ 
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #c4c4cf;	
+    margin-bottom: 40px;
+}
+.part2 h2{ 
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #c4c4cf;	
+}
+.part3 h3{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c4c4cf;	
+}
+.part3 h4{ 
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #c4c4cf;	
+    margin-bottom: 40px;
+}
+.part3 h2{ 
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #c4c4cf;	
+}
+.footer-bottom{
+	margin-top: 28px;
+	text-align: center;
+}
+.footer-bottom form input:focus{
+	outline: none;
+}
+ input{
+	width: 25%;
+	margin: 10px 2px;
+	padding: 10px;
+	border: 3px solid #ffb233;
+	background-color: transparent;
+	color: white;
+}
+.para-input{
+	width: 50.6% !important;
+	padding-bottom: 120px !important;
+}
+.para-input2{
+	width: 50.6% !important;
+	background-color: #51a351 !important;
+	color: white !important;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 3px solid #51a351 !important;
+    border-radius: 5px;
+}
+.footer-bottom h4{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #c4c4cf;
+    margin-top: 15px;	
+}
